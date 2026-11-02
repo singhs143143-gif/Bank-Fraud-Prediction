@@ -1,0 +1,5 @@
+model,threshold,roc_auc,pr_auc,precision,recall,f1,false_positives,false_negatives,true_positives,true_negatives,false_positive_rate,false_negative_rate,flagged_transactions,estimated_business_cost_usd
+Logistic Regression,0.5,0.9976,0.9331,0.5011,0.9678,0.6603,929,31,933,43107,0.0211,0.0322,1862,79015
+Random Forest,0.5,0.9998,0.9942,0.9473,0.9699,0.9585,52,29,935,43984,0.0012,0.0301,987,45320
+XGBoost,0.4,0.9999,0.9978,0.957,0.9917,0.974,43,8,956,43993,0.001,0.0083,999,13505
+Isolation Forest (Unsupervised),0.5,0.993,0.8088,0.6521,0.8361,0.7327,430,158,806,43606,0.0098,0.1639,1236,252050
