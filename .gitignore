@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Transaction datasets and generated reports
+data/
+data*.csv
+reports/
+logs/
+*.csv
+
+# Trained model artifacts
+models/
+*.pkl
+*.joblib
+
+# Generated charts and notebook output
+*.png
+.ipynb_checkpoints/
