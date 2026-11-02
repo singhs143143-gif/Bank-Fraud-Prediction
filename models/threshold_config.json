@@ -1,0 +1,20 @@
+{
+  "optimal_threshold": 0.7,
+  "f1_at_optimal": 0.9744,
+  "precision_at_optimal": 0.9616,
+  "recall_at_optimal": 0.9876,
+  "recommended_risk_bands": {
+    "low": [
+      0.0,
+      0.3
+    ],
+    "medium": [
+      0.3,
+      0.7
+    ],
+    "high": [
+      0.7,
+      1.0
+    ]
+  }
+}
